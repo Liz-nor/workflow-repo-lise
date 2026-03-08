@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "npx tailwindcss -i ./css/input.css -o ./css/style.css --watch",
     "lint": "eslint .",
+    "test": "vitest run",
     "hello": "echo Hello world",
     "prepare": "husky install"
   },
